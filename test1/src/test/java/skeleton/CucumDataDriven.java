@@ -35,5 +35,4 @@ public class CucumDataDriven {
 		OR_LoginPage.signin.click();
 //		Assert.assertTrue(driver.findElement(By.partialLinkText("Log out")).isDisplayed());
 	}
-
 }

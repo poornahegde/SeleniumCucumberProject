@@ -1,0 +1,155 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-21T05:24:36.265Z",
+        "line": 9,
+        "name": "A valid Login",
+        "description": "",
+        "id": "data-driven;a-valid-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7792704100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "URL of web shop",
+            "match": {
+              "location": "CucumDataDriven.url_of_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 232051800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters ask@gmail.com as guest username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ask@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumDataDriven.user_enters_ask_gmail_com_as_guest_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 430502200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters abc123 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumDataDriven.user_enters_abc_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592750400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in valid  page",
+            "match": {
+              "location": "CucumDataDriven.user_is_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-06-21T05:24:45.340Z",
+        "line": 10,
+        "name": "A valid Login",
+        "description": "",
+        "id": "data-driven;a-valid-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10623566600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "URL of web shop",
+            "match": {
+              "location": "CucumDataDriven.url_of_web_shop()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 97282700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user enters ask@ymail.com as valid username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ask@ymail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumDataDriven.user_enters_ask_gmail_com_as_guest_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255730300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enters xyz345 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "xyz345",
+                  "offset": 12
+                }
+              ],
+              "location": "CucumDataDriven.user_enters_abc_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 673431000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in valid  page",
+            "match": {
+              "location": "CucumDataDriven.user_is_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Data Driven",
+    "description": "",
+    "id": "data-driven",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/skeleton/data_driven.feature",
+    "tags": []
+  }
+]
