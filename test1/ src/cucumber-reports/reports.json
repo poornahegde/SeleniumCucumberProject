@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-06-21T06:21:14.350Z",
+        "start_timestamp": "2019-06-21T07:11:14.271Z",
         "line": 9,
         "name": "A valid Login",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9202509400,
+              "duration": 8782820800,
               "status": "passed"
             },
             "line": 3,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 138496400,
+              "duration": 183909200,
               "status": "passed"
             },
             "line": 4,
@@ -43,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 261314500,
+              "duration": 522312500,
               "status": "passed"
             },
             "line": 5,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 618919800,
+              "duration": 769045500,
               "status": "passed"
             },
             "line": 6,
@@ -74,7 +74,7 @@
         ]
       },
       {
-        "start_timestamp": "2019-06-21T06:21:24.603Z",
+        "start_timestamp": "2019-06-21T07:11:24.554Z",
         "line": 10,
         "name": "A valid Login",
         "description": "",
@@ -84,7 +84,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12839709100,
+              "duration": 8529862900,
               "status": "passed"
             },
             "line": 3,
@@ -96,7 +96,7 @@
           },
           {
             "result": {
-              "duration": 120028000,
+              "duration": 266522200,
               "status": "passed"
             },
             "line": 4,
@@ -114,7 +114,7 @@
           },
           {
             "result": {
-              "duration": 437036300,
+              "duration": 436149100,
               "status": "passed"
             },
             "line": 5,
@@ -132,7 +132,7 @@
           },
           {
             "result": {
-              "duration": 835589200,
+              "duration": 852472100,
               "status": "passed"
             },
             "line": 6,
