@@ -1,0 +1,84 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-06-21T09:05:07.019Z",
+        "line": 9,
+        "name": "Successful login",
+        "description": "",
+        "id": "login;successful-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7223712600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Poorna in valid page",
+            "match": {
+              "location": "LoginCase.poorna_in_valid_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 148222300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Poorna enters AlexUser as uname",
+            "match": {
+              "arguments": [
+                {
+                  "val": "AlexUser",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginCase.poorna_enters_AlexUser_as_uname(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 99551700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Poorna enters Alex123 as pwd",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Alex123",
+                  "offset": 14
+                }
+              ],
+              "location": "LoginCase.poorna_enters_Alex_as_pwd(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312901500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "successful login",
+            "match": {
+              "location": "LoginCase.successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/case_study/login_page.feature",
+    "tags": []
+  }
+]
